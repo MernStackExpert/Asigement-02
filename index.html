@@ -16,8 +16,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Google Fonts  -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+      .noto-serif-font {
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+      }
+    </style>
   </head>
-  <body>
+  <body class="noto-serif-font">
     <header>
       <!-- HIDDEN NAV  -->
       <nav class="min-md:hidden block flex justify-between h-[54px]">
@@ -43,11 +54,15 @@
         </ul>
         <ul class="flex space-x-8">
           <div class="flex space-x-8 max-sm:hidden">
-            <li>Home</li>
-            <li class="text-[#8987A1]">Shop</li>
-            <li class="text-[#8987A1]">About us</li>
+            <li class="hover:border-b-2 cursor-pointer">Home</li>
+            <li class="text-[#8987A1] hover:border-b-2 cursor-pointer">Shop</li>
+            <li class="text-[#8987A1] hover:border-b-2 cursor-pointer">
+              About us
+            </li>
           </div>
-          <li><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</li>
+          <li class="cursor-pointer">
+            <i class="fa-solid fa-cart-shopping"></i> Cart ($56)
+          </li>
         </ul>
       </nav>
       <!-- HEADER SECTION  -->
@@ -67,7 +82,7 @@
           >
             FLOWERS
           </h1>
-          <p class="text-[rgba(0,0,0,0.5)]">
+          <p class="text-[rgba(0,0,0,0.5)] max-md:mt-[13px] max-sm:text-[14px]">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
@@ -92,7 +107,7 @@
           <span class="text-[#E95A08]">Our</span> Plants
         </h1>
         <p
-          class="text-[rgba(0,0,0,0.5)] text-center max-w-[888px] mb-[49px] max-sm:3-[336px] mx-auto"
+          class="text-[rgba(0,0,0,0.5)] text-center max-w-[888px] mb-[49px] max-sm:3-[336px] mx-auto max-sm:mt-4"
         >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
@@ -113,7 +128,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -128,7 +145,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -143,7 +162,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -158,7 +179,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -173,7 +196,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -188,7 +213,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -203,7 +230,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -218,7 +247,9 @@
               Lily Blossom
             </h2>
             <h2 class="text-[22px] text-center font-bold">20 USD</h2>
-            <button class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px]">
+            <button
+              class="bg-[#E95A08] text-white w-[100%] h-[50px] mt-[30px] cursor-pointer"
+            >
               Add To Cart
             </button>
           </div>
@@ -326,7 +357,7 @@
 
           <div
             style="background-image: url(./assets/deal-zabo.png)"
-            class="lg:w-[753px] h-[395px] rounded-[10px] flex flex-col justify-center items-center max-sm:max-w-[361px] max-sm:max-h-[172px] md:w-[500px]"
+            class="lg:w-[753px] h-[395px] rounded-[10px] flex flex-col justify-center items-center max-sm:w-[361px] max-sm:max-h-[172px] md:w-[500px]"
           >
             <h1 class="text-[40px] text-white font-bold max-sm:text-[30px]">
               25% Off | Zabo Plant
@@ -357,7 +388,7 @@
             placeholder="Write Email"
           />
           <button
-            class="w-[186px] h-[50px] text-white bg-[#E95A08] max-sm:w-[103px]"
+            class="w-[186px] h-[50px] text-white bg-[#E95A08] max-sm:w-[103px] cursor-pointer"
           >
             Subscribe
           </button>
@@ -376,7 +407,9 @@
             </p>
           </div>
 
-          <div class="flex justify-between w-[300px] max-sm:flex-col">
+          <div
+            class="flex justify-between lg:w-[300px] max-sm:flex-col md: md:w-[180px]"
+          >
             <div class="space-y-8">
               <a class="block hover:border-b-2 text-[#6B7280]" href="#">Home</a>
               <a class="block hover:border-b-2 text-[#6B7280]" href="#"
