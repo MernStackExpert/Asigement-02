@@ -13,14 +13,28 @@
   </head>
   <body>
     <header>
-      <nav class="flex max-w-[1140px] mx-auto h-[71px] my-[30px] justify-between items-center">
-        <ul>
-          <img src="assets/logo (1).png" alt="">
+      <!-- HIDDEN NAV  -->
+      <nav class="min-md:hidden block flex justify-between h-[54px]">
+        <ul class="flex items-center justify-center w-[138px]">
+          <b>9:41</b>
         </ul>
-        <ul class="flex space-x-8">
+        <ul class="flex items-center justify-center w-[143px] space-x-2">
+          <li><i class="fa-solid fa-signal"></i></li>
+          <li><i class="fa-solid fa-wifi"></i></li>
+          <li><i class="fa-solid fa-battery-full"></i></li>
+        </ul>
+      </nav>
+      <!-- SHOW NAV  -->
+      <nav class="flex max-w-[1140px] mx-auto h-[71px] my-[30px] justify-between items-center max-sm:w-[361px] max-sm:my-0 md:mx-8 lg:mx-0">
+        <ul>
+          <img class="max-sm:w-[63px] max-sm:h-[38px]" src="assets/logo (1).png" alt="">
+        </ul>
+        <ul class="flex space-x-8 ">
+           <div class="flex space-x-8 max-sm:hidden">
           <li>Home</li>
-          <li>Shop</li>
-          <li>About us</li>
+          <li class="text-[#8987A1]">Shop</li>
+          <li class="text-[#8987A1]">About us</li>
+           </div>
           <li><i class="fa-solid fa-cart-shopping"></i> Cart ($56) </li>
         </ul>
       </nav>
