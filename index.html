@@ -35,7 +35,9 @@
         <ul class="flex items-center justify-center w-[138px]">
           <b>9:41</b>
         </ul>
-        <ul class="flex items-center justify-center w-[143px] space-x-2">
+        <ul
+          class="flex items-center justify-center w-[143px] space-x-2 mr-[16px]"
+        >
           <li><i class="fa-solid fa-signal"></i></li>
           <li><i class="fa-solid fa-wifi"></i></li>
           <li><i class="fa-solid fa-battery-full"></i></li>
@@ -73,7 +75,7 @@
           class="lg:max-w-[570px] max-sm:p-[16px] md:max-w-[400px] md:p-[20px] lg:p-0"
         >
           <h1
-            class="lg:text-[65px] font-bold max-sm:text-[24px] md:text-[45px]"
+            class="lg:text-[65px] font-bold max-sm:text-[24px] md:text-[45px] max-sm:mt-[20px]"
           >
             ALWAYS <span class="text-[#E95A08]">FRESH</span>
           </h1>
@@ -107,7 +109,7 @@
           <span class="text-[#E95A08]">Our</span> Plants
         </h1>
         <p
-          class="text-[rgba(0,0,0,0.5)] text-center max-w-[888px] mb-[49px] max-sm:3-[336px] mx-auto max-sm:mt-4"
+          class="text-[rgba(0,0,0,0.5)] text-center max-w-[888px] mb-[49px] max-sm:3-[336px] mx-auto max-sm:mt-4 max-sm:text-[14px]"
         >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
@@ -289,7 +291,7 @@
             </h1>
 
             <ul
-              class="list-disc list-inside text-gray-600 space-y-7 text-[22px] max-sm:text-[14px] max-sm:text-justify"
+              class="list-disc text-gray-600 space-y-7 text-[22px] max-sm:text-[14px] max-sm:text-justify pl-[40px]"
             >
               <li>
                 Indulge your senses with the beauty and fragrance of our fresh
@@ -331,23 +333,35 @@
           <div class="w-[367px] h-[423px] flex flex-col gap-y-[25px]">
             <div
               style="background-image: url(./assets/deal-bloom.png)"
-              class="bg-cover lg:w-[367px] h-[197px] rounded-[24px] flex items-center justify-center flex-col max-sm:w-[361px] max-h-[184px] md:w-[290px]"
+              class="bg-cover lg:w-[367px] h-[197px] rounded-[24px] flex items-center justify-center flex-col max-sm:w-[361px] max-h-[184px] md:w-[290px] relative"
             >
-              <h1 class="text-[20px] text-white font-bold">
+              <div
+                class="absolute inset-0 bg-black opacity-[50%] rounded-[10px]"
+              ></div>
+
+              <h1 class="text-[20px] text-white font-bold z-10">
                 60% Off | Bloom Plant
               </h1>
-              <a class="text-[16px] text-white font-bold underline" href="#"
+              <a
+                class="text-[16px] text-white font-bold underline z-10 mt-[19px]"
+                href="#"
                 >Shop Now</a
               >
             </div>
             <div
               style="background-image: url(./assets/deal-ana.png)"
-              class="bg-cover lg:w-[367px] h-[197px] rounded-[24px] flex items-center justify-center flex-col max-sm:w-[361px] max-h-[184px] max-sm:rounded-none md:w-[290px]"
+              class="bg-cover lg:w-[367px] h-[197px] rounded-[24px] flex items-center justify-center flex-col max-sm:w-[361px] max-h-[184px] max-sm:rounded-none md:w-[290px] relative"
             >
-              <h1 class="text-[20px] text-white font-bold">
-                60% Off | Bloom Plant
+              <div
+                class="absolute inset-0 bg-black opacity-[50%] rounded-[10px]"
+              ></div>
+
+              <h1 class="text-[20px] text-white font-bold z-10">
+                30% Off | Ana Plant
               </h1>
-              <a class="font-semibold text-[16px] text-white underline" href="#"
+              <a
+                class="font-semibold text-[16px] text-white underline z-10 mt-[19px]"
+                href="#"
                 >Shop Now</a
               >
             </div>
@@ -357,12 +371,20 @@
 
           <div
             style="background-image: url(./assets/deal-zabo.png)"
-            class="lg:w-[753px] h-[395px] rounded-[10px] flex flex-col justify-center items-center max-sm:w-[361px] max-sm:max-h-[172px] md:w-[500px]"
+            class="lg:w-[753px] h-[395px] rounded-[10px] flex flex-col justify-center items-center max-sm:w-[361px] max-sm:max-h-[172px] md:w-[500px] relative"
           >
-            <h1 class="text-[40px] text-white font-bold max-sm:text-[30px]">
+            <div
+              class="absolute inset-0 bg-black opacity-[50%] rounded-[10px]"
+            ></div>
+
+            <h1
+              class="lg:text-[40px] text-white font-bold max-sm:text-[20px] z-10 md:text-[35px ]"
+            >
               25% Off | Zabo Plant
             </h1>
-            <a class="font-semibold text-[28px] text-white" href="#"
+            <a
+              class="font-semibold text-[28px] text-white underline z-10 max-sm:text-[16px] mt-[19px]"
+              href="#"
               >Shop Now</a
             >
           </div>
@@ -410,7 +432,7 @@
           <div
             class="flex justify-between lg:w-[300px] max-sm:flex-col md: md:w-[180px]"
           >
-            <div class="space-y-8">
+            <div class="space-y-8 max-sm:mt-[32px]">
               <a class="block hover:border-b-2 text-[#6B7280]" href="#">Home</a>
               <a class="block hover:border-b-2 text-[#6B7280]" href="#"
                 >About Us</a
@@ -421,7 +443,7 @@
                 >COntact Us</a
               >
             </div>
-            <div class="space-y-8">
+            <div class="space-y-8 max-sm:mt-[32px]">
               <a class="block hover:border-b-2 text-[#6B7280]" href="#"
                 >Features</a
               >
